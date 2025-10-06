@@ -4,15 +4,13 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=18.x <21"
+    "node": ">=18 <21"
   },
   "scripts": {
-    "postinstall": "chmod +x ./node_modules/.bin/vite || true && chmod +x ./node_modules/esbuild/bin/esbuild || true && npm rebuild lightningcss || true",
     "dev": "vite",
-    "build": "npm rebuild lightningcss && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -26,14 +24,12 @@
     "@tailwindcss/postcss": "^4.1.14",
     "postcss": "^8.5.6",
     "autoprefixer": "^10.4.21",
-    "typescript": "^5.9.3",
-    "lightningcss": "^1.28.2"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0"
   },
-  
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.18.0",
     "@rollup/rollup-linux-x64-musl": "^4.18.0"
