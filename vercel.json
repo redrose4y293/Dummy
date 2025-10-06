@@ -1,12 +1,8 @@
 {
-  "buildCommand": "npm install && npm rebuild esbuild && vite build",
+  "buildCommand": "npm ci && npm rebuild esbuild || true && npm rebuild lightningcss || true && chmod +x node_modules/.bin/vite && vite build",
   "outputDirectory": "dist",
-  "installCommand": "npm install",
+  "installCommand": "npm ci",
   "routes": [
-    {
-      "src": "/[^.]+",
-      "dest": "/",
-      "status": 200
-    }
+    { "src": "/[^.]+", "dest": "/", "status": 200 }
   ]
 }
