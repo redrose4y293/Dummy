@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "22.x"
+    "node": "18.x"
   },
   "scripts": {
     "postinstall": "chmod +x ./node_modules/.bin/vite || true && chmod +x ./node_modules/esbuild/bin/esbuild || true",
@@ -12,6 +12,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
