@@ -24,7 +24,7 @@ export default function ThankYou() {
                 <div className="text-brand-orange text-xl mt-1">✉️</div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">We'll respond shortly</h3>
-                  <p className="text-gray-700">Our team will reply from <strong>nathan@membershipauto.com</strong> within 1–2 business days.</p>
+                  <p className="text-gray-700">Our team will reply from <strong>Info@autophashield.com</strong> within 1–2 business days.</p>
                 </div>
               </div>
               

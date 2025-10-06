@@ -60,7 +60,7 @@ function Footer() {
 					<span>(207) 947-1999</span>
 				</div>
 				<div>
-					<a href="mailto:nathan@membershipauto.com" className="underline hover:text-brand-orange transition-colors">nathan@membershipauto.com</a>
+					<a href="mailto:Info@autophashield.com" className="underline hover:text-brand-orange transition-colors">nathan@membershipauto.com</a>
 				</div>
 				<div className="text-gray-500 text-xs">© 2025 AutophaShield™ • Trademarked and patent-pending. Formulated in the United States.</div>
 			</div>

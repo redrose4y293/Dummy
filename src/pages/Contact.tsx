@@ -38,8 +38,8 @@ export default function Contact() {
                   <div className="text-brand-orange text-2xl mt-1">✉️</div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <a href="mailto:nathan@membershipauto.com" className="text-brand-green hover:text-brand-orange transition-colors underline">
-                      nathan@membershipauto.com
+                    <a href="mailto:Info@autophashield.com" className="text-brand-green hover:text-brand-orange transition-colors underline">
+                      Info@autophashield.com
                     </a>
                   </div>
                 </div>
