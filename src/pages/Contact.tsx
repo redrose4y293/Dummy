@@ -1,6 +1,6 @@
 import Section from '../components/Section'
 
-const FORMSPREE_ENDPOINT = import.meta.env.VITE_FORMSPREE_ENDPOINT as string | undefined
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/mgvnzqdp"
 
 export default function Contact() {
   return (
@@ -142,7 +142,7 @@ export default function Contact() {
               {FORMSPREE_ENDPOINT ? (
                 <button 
                   type="submit" 
-                  formAction={FORMSPREE_ENDPOINT + '?redirect=' + encodeURIComponent('/thank-you')}
+                  formAction={FORMSPREE_ENDPOINT + '?redirect=' + encodeURIComponent('/ThankYou')}
                   className="w-full px-8 py-4 rounded-lg bg-brand-orange text-white font-bold text-lg shadow-lg hover:shadow-xl hover:bg-brand-orange/90 transition-all duration-300 transform hover:-translate-y-1"
                 >
                   Send Message →
