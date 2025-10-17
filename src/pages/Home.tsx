@@ -56,7 +56,7 @@ export default function Home() {
 		</Section>
 
 			<Section title="How It Works">
-  <div className="grid lg:grid-cols-3 gap-4 lg:gap-6"> {/* reduced gap */}
+  <div className="grid lg:grid-cols-2 gap-4 lg:gap-6"> {/* reduced gap */}
     
     {/* Text Section */}
     <div className="lg:col-span-2 flex items-center"> {/* vertically center text */}
