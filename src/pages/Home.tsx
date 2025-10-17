@@ -60,19 +60,6 @@ export default function Home() {
 					<div className="lg:col-span-2">
 						<div className="grid md:grid-cols-2 gap-6 lg:gap-8">
 							<div>
-								<h3 className="font-semibold text-gray-900 mb-4">The Stack</h3>
-								<ul className="grid gap-2 text-gray-700">
-									<li className="p-3 bg-brand-gray rounded">Berberine — Activates AMPK</li>
-									<li className="p-3 bg-brand-gray rounded">Spermidine — Autophagy signaling</li>
-									<li className="p-3 bg-brand-gray rounded">Resveratrol — SIRT1, RBM3</li>
-									<li className="p-3 bg-brand-gray rounded">Curcumin — mTOR moderation</li>
-									<li className="p-3 bg-brand-gray rounded">Quercetin — Protein recycling</li>
-									<li className="p-3 bg-brand-gray rounded">Sulforaphane — Hsp72, Nrf2</li>
-									<li className="p-3 bg-brand-gray rounded">EGCG — Autophagy & antioxidant</li>
-									<li className="p-3 bg-brand-gray rounded">DHA — Cold shock support</li>
-								</ul>
-							</div>
-							<div>
 								<h3 className="font-semibold text-gray-900 mb-4">Pathways Activated</h3>
 								<ul className="space-y-2 text-gray-700">
 									<li><span className="inline-block px-2 py-1 rounded bg-green-100 text-green-800 mr-2">↑</span>AMPK</li>
