@@ -138,7 +138,6 @@ export default function Home() {
 			<Section title="Science & Validation" background="muted">
 				<ul className="list-disc pl-6 space-y-2 text-gray-700 max-w-3xl">
 					<li>Patent-pending formulation</li>
-					<li>Based on 200+ peer-reviewed studies on AMPK, mTOR, SIRT1, Hsp72, RBM3</li>
 					<li>Lab partnerships in development for real-time biomarker validation</li>
 				</ul>
 			</Section>
