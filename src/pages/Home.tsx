@@ -56,46 +56,54 @@ export default function Home() {
 		</Section>
 
 			<Section title="How It Works">
-				<div className="grid lg:grid-cols-3 gap-4 lg:gap-10">
-					<div className="lg:col-span-2">
-						<div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-							<div>
-								<h3 className="font-semibold text-gray-900 mb-4">Pathways Activated</h3>
-								<ul className="space-y-2 text-gray-700">
-									<li><span className="inline-block px-2 py-1 rounded bg-green-100 text-green-800 mr-2">↑</span>AMPK</li>
-									<li><span className="inline-block px-2 py-1 rounded bg-green-100 text-green-800 mr-2">↑</span>SIRT1</li>
-									<li><span className="inline-block px-2 py-1 rounded bg-red-100 text-red-800 mr-2">↓</span>mTOR</li>
-									<li><span className="inline-block px-2 py-1 rounded bg-green-100 text-green-800 mr-2">↑</span>Hsp72/Hsp27</li>
-									<li><span className="inline-block px-2 py-1 rounded bg-green-100 text-green-800 mr-2">↑</span>RBM3/CIRP</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				<div className="flex items-start justify-center h-full">
-					<img 
-						src="/images/autophagy-pathway.png" 
-						alt="Autophagy Pathway" 
-						className="w-full h-full max-h-[600px] object-contain rounded-xl shadow-lg border border-gray-200"
-					/>
-				</div>
-				</div>
-				<div className="mt-8 lg:mt-12 grid md:grid-cols-2 gap-6 lg:gap-8">
-					<div className="flex items-center justify-center">
-						<img 
-							src="/images/phagophore.png" 
-							alt="Phagophore Formation" 
-							className="w-full max-w-sm h-auto rounded-xl shadow-lg"
-						/>
-					</div>
-					<div className="flex items-center justify-center">
-						<img 
-							src="/images/mood&dopamine-system.png" 
-							alt="Mood & Dopamine System" 
-							className="w-full max-w-sm h-auto rounded-xl shadow-lg"
-						/>
-					</div>
-				</div>
-			</Section>
+  <div className="grid lg:grid-cols-3 gap-4 lg:gap-6"> {/* reduced gap */}
+    
+    {/* Text Section */}
+    <div className="lg:col-span-2 flex items-center"> {/* vertically center text */}
+      <div className="grid md:grid-cols-2 gap-4 lg:gap-6 w-full">
+        <div>
+          <h3 className="font-semibold text-gray-900 mb-4 text-lg lg:text-xl">
+            Pathways Activated
+          </h3>
+          <ul className="space-y-2 text-gray-700 text-base lg:text-lg">
+            <li><span className="inline-block px-2 py-1 rounded bg-green-100 text-green-800 mr-2">↑</span>AMPK</li>
+            <li><span className="inline-block px-2 py-1 rounded bg-green-100 text-green-800 mr-2">↑</span>SIRT1</li>
+            <li><span className="inline-block px-2 py-1 rounded bg-red-100 text-red-800 mr-2">↓</span>mTOR</li>
+            <li><span className="inline-block px-2 py-1 rounded bg-green-100 text-green-800 mr-2">↑</span>Hsp72/Hsp27</li>
+            <li><span className="inline-block px-2 py-1 rounded bg-green-100 text-green-800 mr-2">↑</span>RBM3/CIRP</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    {/* Image Section */}
+    <div className="flex items-center justify-center h-full">
+      <img 
+        src="/images/autophagy-pathway.png" 
+        alt="Autophagy Pathway" 
+        className="w-full h-full max-h-[600px] object-contain rounded-xl shadow-lg border border-gray-200"
+      />
+    </div>
+  </div>
+
+  {/* Second Row */}
+  <div className="mt-8 lg:mt-12 grid md:grid-cols-2 gap-6 lg:gap-8">
+    <div className="flex items-center justify-center">
+      <img 
+        src="/images/phagophore.png" 
+        alt="Phagophore Formation" 
+        className="w-full max-w-sm h-auto rounded-xl shadow-lg"
+      />
+    </div>
+    <div className="flex items-center justify-center">
+      <img 
+        src="/images/mood&dopamine-system.png" 
+        alt="Mood & Dopamine System" 
+        className="w-full max-w-sm h-auto rounded-xl shadow-lg"
+      />
+    </div>
+  </div>
+</Section>
 
 		<Section title="Benefits" background="muted">
 			<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
