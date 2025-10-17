@@ -56,7 +56,7 @@ export default function Home() {
 		</Section>
 
 			<Section title="How It Works">
-				<div className="grid lg:grid-cols-2 gap-6 lg:gap-10">
+				<div className="grid lg:grid-cols-3 gap-4 lg:gap-10">
 					<div className="lg:col-span-2">
 						<div className="grid md:grid-cols-2 gap-6 lg:gap-8">
 							<div>
