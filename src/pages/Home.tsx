@@ -59,7 +59,7 @@ export default function Home() {
   <div className="grid lg:grid-cols-3 gap-2 lg:gap-6"> {/* reduced gap */}
     
     {/* Text Section */}
-    <div className="lg:col-span-2 flex items-center"> {/* vertically center text */}
+    <div className="lg:col-span-1 flex items-center"> {/* vertically center text */}
       <div className="grid md:grid-cols-2 gap-4 lg:gap-6 w-full">
         <div>
           <h3 className="font-semibold text-gray-900 mb-4 text-lg lg:text-xl">
