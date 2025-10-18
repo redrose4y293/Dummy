@@ -169,7 +169,7 @@ export default function Contact() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a 
-              href="mailto:nathan@membershipauto.com" 
+              href="mailto:Info@autophashield.com" 
               className="inline-flex items-center px-6 py-3 bg-brand-green text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:bg-brand-green/90 transition-all transform hover:-translate-y-1"
             >
               Email Us Directly
