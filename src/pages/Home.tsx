@@ -35,25 +35,30 @@ export default function Home() {
 				</div>
 			</Section>
 
-		<Section title="What is AutophaShield?" background="muted">
-			<div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
-				<div className="pt-4 lg:pt-12">
-					<ul className="list-disc pl-6 space-y-2 lg:space-y-3 text-base lg:text-lg text-gray-700">
-						<li>Trigger deep autophagy (cellular recycling and repair)</li>
-						<li>Activate beneficial heat shock proteins (HSP70, HSP27)</li>
-						<li>Activate cold shock proteins (RBM3, CIRP) for neuroprotection</li>
-					</ul>
-					<p className="mt-4 lg:mt-6 text-base lg:text-lg text-gray-700 leading-relaxed">This is the first supplement to simulate biological stress (fasting, cold, heat) without physically enduring it.</p>
-				</div>
-				<div className="flex justify-center mt-6 lg:mt-0">
-					<img 
-						src="/images/autophagy.png" 
-						alt="Autophagy Process" 
-						className="w-full max-w-xs sm:max-w-sm h-auto rounded-xl shadow-lg"
-					/>
-				</div>
-			</div>
-		</Section>
+<Section title="What is AutophaShield?" background="muted">
+  <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+    <div className="pt-4 lg:pt-12">
+      <ul className="list-disc pl-6 space-y-2 lg:space-y-3 text-base lg:text-lg text-gray-700">
+        <li>Trigger deep autophagy (cellular recycling and repair)</li>
+        <li>Activate beneficial heat shock proteins (HSP70, HSP27)</li>
+        <li>Activate cold shock proteins (RBM3, CIRP) for neuroprotection</li>
+      </ul>
+      <p className="mt-4 lg:mt-6 text-base lg:text-lg text-gray-700 leading-relaxed">
+        This is the first supplement to simulate biological stress (fasting, cold, heat) without physically enduring it.
+      </p>
+    </div>
+
+    {/* Image on the right */}
+    <div className="flex justify-end mt-6 lg:mt-0">
+      <img 
+        src="/images/autophagy.png" 
+        alt="Autophagy Process" 
+        className="w-full max-w-xs sm:max-w-sm h-auto rounded-xl shadow-lg"
+      />
+    </div>
+  </div>
+</Section>
+
 
 			<Section title="How It Works">
   <div className="grid lg:grid-cols-2 gap-2 lg:gap-6"> {/* reduced gap */}
