@@ -93,14 +93,14 @@ export default function Home() {
 
   {/* Second Row */}
   <div className="mt-8 lg:mt-12 grid md:grid-cols-2 gap-6 lg:gap-8">
-    <div className="flex items-center justify-center">
+    <div className="flex items-start justify-start">
       <img 
         src="/images/phagophore.png" 
         alt="Phagophore Formation" 
         className="w-full max-w-sm h-auto rounded-xl shadow-lg"
       />
     </div>
-    <div className="flex items-center justify-center">
+    <div className="flex items-ent justify-end">
       <img 
         src="/images/mood&dopamine-system.png" 
         alt="Mood & Dopamine System" 
