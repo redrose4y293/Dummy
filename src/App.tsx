@@ -65,8 +65,7 @@ function Footer() {
 				<div className="text-gray-500 text-xs">© 2025 AutophaShield™ • Trademarked and patent-pending. Formulated in the United States.</div>
 				        <div className="pt-3">
           <a
-            href="/GB.pdf"        // <-- put file at public/autophashield-brochure.pdf
-            download="gb.pdf"   // optional filename for download
+            href="/GB.pdf"        // <-- put file at public/autophashield-brochure.pdf   // optional filename for download
             className="inline-flex items-center gap-2 bg-brand-orange hover:bg-orange-600 text-white text-sm font-medium px-5 py-2 rounded-full transition-all no-underline"
             target="_blank" rel="noopener noreferrer"
           >
