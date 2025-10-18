@@ -63,6 +63,20 @@ function Footer() {
 					<a href="mailto:Info@autophashield.com" className="underline hover:text-brand-orange transition-colors">Info@autophashield.com</a>
 				</div>
 				<div className="text-gray-500 text-xs">© 2025 AutophaShield™ • Trademarked and patent-pending. Formulated in the United States.</div>
+				        <div className="pt-3">
+          <a
+            href="/GB.pdf"        // <-- put file at public/autophashield-brochure.pdf
+            download="gb.pdf"   // optional filename for download
+            className="inline-flex items-center gap-2 bg-brand-orange hover:bg-orange-600 text-white text-sm font-medium px-5 py-2 rounded-full transition-all no-underline"
+            target="_blank" rel="noopener noreferrer"
+          >
+            {/* optional icon */}
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v12m0 0l-4-4m4 4l4-4M21 12v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6" />
+            </svg>
+            Global Policy
+          </a>
+        </div>
 			</div>
 		</footer>
 	)
